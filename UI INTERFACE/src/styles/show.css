@@ -1,0 +1,125 @@
+/* ===== Global ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.app-body {
+  font-family: 'Varela Round', sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* ===== Header ===== */
+.app-header {
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 16px;
+}
+
+.app-logo {
+  font-size: 20px;
+  text-decoration: none;
+  color: #222;
+}
+
+/* ===== Layout ===== */
+.main-section {
+  padding: 40px 16px;
+}
+
+.page-container {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* ===== Card ===== */
+.contact-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.card-header {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.card-title {
+  font-size: 22px;
+}
+
+/* ===== Card Body ===== */
+.card-body {
+  padding: 24px;
+}
+
+/* ===== Contact Detail Row ===== */
+.contact-detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.detail-label {
+  font-weight: 600;
+  color: #555;
+}
+
+.detail-value {
+  color: #777;
+}
+
+/* ===== Action Buttons ===== */
+.action-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-info {
+  background-color: #0284c7;
+  color: #fff;
+}
+
+.btn-info:hover {
+  background-color: #0369a1;
+}
+
+.btn-danger {
+  background-color: #dc2626;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #b91c1c;
+}
+
+.btn-secondary {
+  border: 1px solid #ccc;
+  color: #333;
+  background: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #f3f3f3;
+}

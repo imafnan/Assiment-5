@@ -1,0 +1,32 @@
+.no-contact-box {
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f8f9ff, #eef1ff);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.no-contact-box h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #2d2d2d;
+    margin-bottom: 8px;
+}
+
+.no-contact-box p {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

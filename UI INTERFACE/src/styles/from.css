@@ -1,0 +1,152 @@
+/* ===== Global ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.app-body {
+  font-family: 'Varela Round', sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* ===== Header ===== */
+.app-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.app-logo {
+  font-size: 20px;
+  text-decoration: none;
+  color: #222;
+}
+
+/* ===== Main Layout ===== */
+.main-section {
+  padding: 40px 16px;
+}
+
+.page-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ===== Card ===== */
+.form-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.form-card-header {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.form-title {
+  font-size: 22px;
+}
+
+/* ===== Form ===== */
+.form-card-body {
+  padding: 24px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 20px;
+}
+
+.form-label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form-input,
+.form-textarea {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* ===== Divider ===== */
+.form-divider {
+  height: 1px;
+  background-color: #eee;
+  margin: 10px 0;
+}
+
+/* ===== Buttons ===== */
+.form-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #1e4ed8;
+}
+.btn-primary a,
+.btn-primary Link{
+  text-decoration: none;
+}
+
+.btn-secondary {
+  padding: 10px 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.btn-secondary:hover {
+  background-color: #f1f1f1;
+}
+.error{
+    padding: 10px 12px;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.401);
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
